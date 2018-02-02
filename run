@@ -1,0 +1,9 @@
+#!/bin/bash
+clear
+echo "Choose a script to be run: "
+select s in `ls ~/myscripts/`;
+do
+	echo Running $s
+	bash $s
+done
+

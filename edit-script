@@ -1,0 +1,8 @@
+#!/bin/bash
+clear
+echo "Choose a script to be edited : "
+select s in `ls ~/myscripts`
+do
+	vim ~/myscripts/$s
+	exit 0
+done

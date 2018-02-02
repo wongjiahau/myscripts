@@ -1,0 +1,12 @@
+#!/bin/bash
+if [ -z $1 ]; then
+	echo Please specify the file name
+	read FILE
+else 
+	FILE=$1
+fi
+cd ~/myscripts/
+touch $FILE
+chmod u+x $FILE
+echo "#!/bin/bash" > $FILE
+vim $FILE
