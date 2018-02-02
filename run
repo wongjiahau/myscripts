@@ -1,9 +1,29 @@
 #!/bin/bash
 clear
-echo "Choose a script to be run: "
-select s in `ls ~/myscripts/`;
-do
-	echo Running $s
-	bash $s
-done
+PS3=">>"
+# $1 : string // Directory
+# $2 : (file) => void // Action 
+prompt () {
+	clear
+	declare -a input=("${!1}")
+	echo "Choose a script to be run OR type a keyword >> "
+	select s in "${input[@]}"
+	do
+		if [[ $REPLY =~ ^-?[0-9]+$ ]]; then
+			$2 $s
+			$2 $s
+		else 
+			local MATCH=`for i in ${input[@]}; do echo "$i"; done | egrep "*$REPLY*"`
+			readarray -t array <<<"$MATCH"
+			prompt array[@] $2
+		fi
+	done
+}
 
+run () {
+	echo "Running $1"
+	bash $1
+}
+
+INPUT=(`ls ~/myscripts`)
+prompt INPUT[@] run
