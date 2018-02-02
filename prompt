@@ -1,0 +1,19 @@
+#!/bin/bash
+PS3=">>"
+# $1 : string // Directory
+# $2 : (file) => void // Action 
+function prompt {
+	declare -a input=("${!1}")
+	echo "Choose a script to be run OR type a keyword >> "
+	select s in "${input[@]}"
+	do
+		if [[ $REPLY =~ ^-?[0-9]+$ ]]; then
+			$2 $s
+			$2 $s
+		else 
+			local MATCH=`for i in ${input[@]}; do echo "$i"; done | egrep "*$REPLY*"`
+			readarray -t array <<<"$MATCH"
+			prompt array[@] $2
+		fi
+	done
+}
