@@ -1,8 +1,10 @@
 #!/bin/bash
-clear
-echo "Choose a script to be edited : "
-select s in `ls ~/myscripts`
-do
-	vim ~/myscripts/$s
-	exit 0
-done
+source ~/myscripts/prompt
+
+edit() {
+	echo "Editing $1"
+	code $1
+}
+
+INPUT=(`ls ~/myscripts`)
+prompt INPUT[@] edit "EDITED"

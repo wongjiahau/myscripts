@@ -7,4 +7,4 @@ run () {
 }
 
 INPUT=(`ls ~/myscripts`)
-prompt INPUT[@] run
+prompt INPUT[@] run "RUN"
