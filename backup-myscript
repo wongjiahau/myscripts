@@ -1,0 +1,5 @@
+#!/bin/bash
+cd ~/myscripts/
+git add .
+git ci "Update"
+git ps
