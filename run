@@ -6,5 +6,5 @@ run () {
 	bash $1
 }
 
-INPUT=(`ls ~/myscripts`)
+INPUT=(`ls ~/myscripts -p | grep -v /`)
 prompt INPUT[@] run "RUN"
