@@ -3,6 +3,7 @@ source ~/myscripts/prompt
 
 run () {
 	echo "Running $1"
+    cat ~/myscripts/$1
 	bash $1
 }
 

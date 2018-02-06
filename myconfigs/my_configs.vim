@@ -5,7 +5,7 @@ while c <= 'z'
           let c = nr2char(1+char2nr(c))
       endw
 
-      set timeout ttimeoutlen=50
+      set timeout ttimeoutlen=10
 map <A-h> gT
 map <A-l> gt
 map <A-w> :q<CR>
