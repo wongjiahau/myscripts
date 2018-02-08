@@ -13,6 +13,7 @@
 	db = branch -d
 	ci = commit -m
 	ca = commit --amend
+    c  = !git add ./ && git commit
 	co = checkout
 	cb = checkout -b
 	ds = diff --staged
