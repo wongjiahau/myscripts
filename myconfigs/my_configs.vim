@@ -17,6 +17,11 @@ map <C-j> <C-d>
 map <C-k> <C-u>
 map - <C-x>
 map + <C-a>
+nnoremap dl d$
+nnoremap dh d^
+nnoremap vh v^
+nnoremap vl v$
+nnoremap Y y$
 nnoremap H ^
 nnoremap L $
 nnoremap n *
@@ -24,5 +29,3 @@ nnoremap N #
 map [ N
 map ] n
 nnoremap * ggVG
-map dl d$
-map dh d^
