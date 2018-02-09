@@ -6,21 +6,21 @@ while c <= 'z'
       endw
 
       set timeout ttimeoutlen=10
+let g:ctrlp_map = '<c-p>'
 map <A-h> gT
 map <A-l> gt
 map <A-w> :q<CR>
 map <CR> :w<CR>
 map <C-n> :NERDTreeToggle<cr>
-let g:ctrlp_map = '<c-p>'
 map <A-z> :Goyo<cr>
 map <C-j> <C-d>
 map <C-k> <C-u>
 map - <C-x>
 map + <C-a>
-map n *
-map N #
+nnoremap n *
+nnoremap N #
 map [ N
 map ] n
-map * ggVG
-map dh d^
+nnoremap * ggVG
 map dl d$
+map dh d^
