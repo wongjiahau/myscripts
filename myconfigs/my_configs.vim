@@ -17,6 +17,8 @@ map <C-j> <C-d>
 map <C-k> <C-u>
 map - <C-x>
 map + <C-a>
+nnoremap H ^
+nnoremap L $
 nnoremap n *
 nnoremap N #
 map [ N
