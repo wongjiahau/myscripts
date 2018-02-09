@@ -19,4 +19,8 @@ map - <C-x>
 map + <C-a>
 map n *
 map N #
+map [ N
+map ] n
 map * ggVG
+map dh d^
+map dl d$
