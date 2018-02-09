@@ -1,5 +1,3 @@
-set timeoutlen=1000 ttimeoutlen=0
-
 let c='a'
 while c <= 'z'
       exec "set <A-".c.">=\e".c
