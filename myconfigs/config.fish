@@ -8,6 +8,7 @@ source $OMF_PATH/init.fish
 set -gx PATH ~/myscripts $PATH
 fish_vi_mode
 
+# export PATH=$HOME/bin:/usr/local/bin:$HOME/.nvm/versions/node/v6.11.3/bin:$HOME/anaconda3/bin:/home/hou32hou/.nvm/versions/node/v6.11.3/lib:~/myscripts:$PATH
 # aliases
 alias sizeofhere="du -hs ./"
 alias duh="du -h"
