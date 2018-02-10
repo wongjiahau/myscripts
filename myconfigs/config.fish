@@ -5,11 +5,11 @@ set -q XDG_DATA_HOME
 
 # Load Oh My Fish configuration.
 source $OMF_PATH/init.fish
-set -gx PATH ~/myscripts \
+set -gx PATH $PATH
+~/myscripts \
 $HOME/bin \ 
 /usr/local/bin \
 $HOME/.nvm/versions/node/v6.11.3/bin \
-$PATH
 fish_vi_mode
 
 # export PATH=$HOME/bin:/usr/local/bin:$HOME/.nvm/versions/node/v6.11.3/bin:$HOME/anaconda3/bin:/home/hou32hou/.nvm/versions/node/v6.11.3/lib:~/myscripts:$PATH
