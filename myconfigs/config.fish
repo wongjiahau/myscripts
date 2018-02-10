@@ -9,7 +9,7 @@ set -gx PATH $PATH \
 ~/myscripts \
 $HOME/bin \ 
 /usr/local/bin \
-$HOME/.nvm/versions/node/v6.11.3/bin 
+$HOME/.nvm/versions/node/v6.11.3/bin;
 
 fish_vi_mode
 
