@@ -7,3 +7,4 @@ set -q XDG_DATA_HOME
 source $OMF_PATH/init.fish
 set -gx PATH ~/myscripts $PATH
 fish_vi_mode
+
