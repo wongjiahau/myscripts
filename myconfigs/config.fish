@@ -13,6 +13,7 @@ fish_vi_key_bindings
 # export PATH=$HOME/bin:/usr/local/bin:$HOME/.nvm/versions/node/v6.11.3/bin:$HOME/anaconda3/bin:/home/hou32hou/.nvm/versions/node/v6.11.3/lib:~/myscripts:$PATH
 # aliases
 alias sizeofhere="du -hs ./"
+alias l="ls -lah"
 alias duh="du -h"
 alias del="gvfs-trash" 
 alias rm="echo Use 'del' instead, because rm is dangerous, del will delete the item to trash"
