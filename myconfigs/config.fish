@@ -18,6 +18,7 @@ alias duh="du -h"
 alias del="gvfs-trash" 
 alias rm="echo Use 'del' instead, because rm is dangerous, del will delete the item to trash"
 alias py="python"
+alias rc="vim ~/dotfiles"
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/home/hou32hou/Downloads/google-cloud-sdk/path.fish.inc' ]; if type source > /dev/null; source '/home/hou32hou/Downloads/google-cloud-sdk/path.fish.inc'; else; . '/home/hou32hou/Downloads/google-cloud-sdk/path.fish.inc'; end; end
