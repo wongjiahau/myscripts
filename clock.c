@@ -62,7 +62,7 @@ void draw_line(draw_t const *d, int color, int sx, int sy, int ex, int ey)
  *  * @fn draw_circle
  *   * @brief midpoint circle algorithm
  *    */
-vsoid draw_circle(draw_t const *d, int color, int cx, int cy, int r)
+void draw_circle(draw_t const *d, int color, int cx, int cy, int r)
 {
         int f = 1 - r;
             int x = 0, y = r;
