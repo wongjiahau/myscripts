@@ -99,3 +99,5 @@ alias duh="du -h"
 alias del="gvfs-trash" 
 alias rm="echo Use 'del' instead, because rm is dangerous, del will delete the item to trash"
 alias py="python"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
