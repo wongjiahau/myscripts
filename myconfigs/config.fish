@@ -20,6 +20,8 @@ alias del="gvfs-trash"
 alias py="python"
 alias rc="vim ~/dotfiles"
 alias oo="xdg-open"
+alias stop="Don't run this command, it will stop the window manager"
+
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/home/hou32hou/Downloads/google-cloud-sdk/path.fish.inc' ]; if type source > /dev/null; source '/home/hou32hou/Downloads/google-cloud-sdk/path.fish.inc'; else; . '/home/hou32hou/Downloads/google-cloud-sdk/path.fish.inc'; end; end
