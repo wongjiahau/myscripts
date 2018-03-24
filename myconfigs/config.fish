@@ -20,7 +20,7 @@ alias del="gvfs-trash"
 alias py="python"
 alias rc="vim ~/dotfiles"
 alias oo="xdg-open"
-alias stop="Don't run this command, it will stop the window manager"
+alias stop="echo 'Don't run this command, it will stop the window manager'"
 
 
 # The next line updates PATH for the Google Cloud SDK.
