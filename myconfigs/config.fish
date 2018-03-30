@@ -27,4 +27,3 @@ alias stop="echo 'Dont run this command, it will stop the window manager'"
 if [ -f '/home/hou32hou/Downloads/google-cloud-sdk/path.fish.inc' ]; if type source > /dev/null; source '/home/hou32hou/Downloads/google-cloud-sdk/path.fish.inc'; else; . '/home/hou32hou/Downloads/google-cloud-sdk/path.fish.inc'; end; end
 
 # Set color scheme
- set -gx theme_color_scheme dark
