@@ -158,9 +158,9 @@ bar {
 }
 
 # Pulse Audio controls
-bindsym XF86AudioRaiseVolume amixer -q -D pulse sset Master 10%+
-bindsym XF86AudioLowerVolume amixer -q -D pulse sset Master 10%-
-bindsym XF86AudioMute exec  amixer -q -D pulse sset Master toggle    
+bindsym XF86AudioRaiseVolume exec amixer -q -D pulse sset Master 10%+
+bindsym XF86AudioLowerVolume exec amixer -q -D pulse sset Master 10%-
+bindsym XF86AudioMute        exec amixer -q -D pulse sset Master toggle    
 
 # Sreen brightness controls
 bindsym XF86MonBrightnessUp exec xbacklight -inc 20 # increase screen brightness
