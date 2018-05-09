@@ -184,3 +184,6 @@ bindsym $mod+Shift+Tab workspace prev
 # Sleep computer
 bindsym $mod+End exec sudo pm-suspend
 # Refer https://askubuntu.com/questions/1792/how-can-i-suspend-hibernate-from-command-line
+
+# Screen setup
+exec --no-startup-id xrandr --output DP2 --auto --left-of DP1
