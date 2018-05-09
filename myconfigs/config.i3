@@ -51,8 +51,8 @@ bindsym $mod+l focus right
 
 
 bindsym $mod+Left focus left
-bindsym $mod+Down focus down
-bindsym $mod+Up focus up
+# bindsym $mod+Down focus down
+# bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
 # move focused window
@@ -174,5 +174,5 @@ bindsym $mod+Shift+greater move container to output right; focus output right
 bindsym $mod+Shift+less move container to output left; focus output left
 
 # switch focus to different monitors
-bindsym $mod+greater focus output right
-bindsym $mod+less focus output left
+bindsym $mod+Up focus output right
+bindsym $mod+Down focus output left
