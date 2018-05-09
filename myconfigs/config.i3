@@ -178,3 +178,5 @@ bindsym $mod+Up focus output right
 bindsym $mod+Down focus output left
 
 # Cycle through workspace
+bindsym $mod+Tab workspace next
+bindsym $mod+Shift+Tab workspace prev
