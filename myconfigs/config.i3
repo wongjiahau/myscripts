@@ -158,8 +158,8 @@ bar {
 }
 
 # Pulse Audio controls
-bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
-bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% #decrease sound volume
+bindsym XF86AudioRaiseVolume amixer -q -D pulse sset Master 10%+
+bindsym XF86AudioLowerVolume amixer -q -D pulse sset Master 10%-
 bindsym XF86AudioMute exec  amixer -q -D pulse sset Master toggle    
 
 # Sreen brightness controls
