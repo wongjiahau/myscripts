@@ -1,4 +1,10 @@
 #!/bin/bash
-# Set monitor placement
+
+echo Setting monitor placement
 xrandr --output HDMI-1 --auto --above eDP-1
+
+echo mapping ESC to Caplocks
+map-esc-to-caps.sh
+
+echo "Completed"
 
