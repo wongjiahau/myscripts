@@ -3,6 +3,10 @@
 echo Setting monitor placement
 xrandr --output HDMI-1 --auto --above eDP-1
 
+if [ $? == 0 ]; then
+    echo "OK"
+fi
+
 echo mapping ESC to Caplocks
 map-esc-to-caps.sh
 
