@@ -174,3 +174,5 @@ bindsym $mod+Shift+greater move container to output right; focus output right
 bindsym $mod+Shift+less move container to output left; focus output left
 
 # switch focus to different monitors
+bindsym $mod+greater focus output right
+bindsym $mod+less focus output left
