@@ -1,3 +1,4 @@
 #!/bin/bash
-
+# Set monitor placement
+xrandr --output HDMI-1 --auto --above eDP-1
 
