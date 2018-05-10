@@ -174,8 +174,8 @@ bindsym $mod+Shift+greater move container to output right; focus output right
 bindsym $mod+Shift+less move container to output left; focus output left
 
 # switch focus to different monitors
-bindsym $mod+Up focus output right
-bindsym $mod+Down focus output left
+bindsym $mod+Up focus output up
+bindsym $mod+Down focus output down
 
 # Cycle through workspace
 bindsym $mod+Tab workspace next
