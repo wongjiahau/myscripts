@@ -187,3 +187,6 @@ bindsym $mod+End exec sudo pm-suspend
 
 # Screen setup
 exec --no-startup-id xrandr --output HDMI-1 --auto --above eDP-1
+
+# Init everything else (it's a custom script called init)
+exec --no-startup-id init
