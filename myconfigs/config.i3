@@ -188,5 +188,7 @@ bindsym $mod+End exec sudo pm-suspend
 # Screen setup
 exec --no-startup-id xrandr --output HDMI-1 --auto --above eDP-1
 
-# Init everything else (it's a custom script called init)
+# Init everything else (its a custom script called init)
 exec --no-startup-id init
+
+bindsym $mod+r exec i3-input -F 'rename workspace to "%s"' -P 'Rename workspace: '
