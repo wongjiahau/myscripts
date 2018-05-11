@@ -29,3 +29,5 @@
 	name = Wong Jia Hau
 [core]
 	editor = vim
+[push]
+	default = matching
