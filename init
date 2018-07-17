@@ -12,7 +12,6 @@ map-esc-to-caps.sh
 
 echo Activating WiFi
 wifi
-nmtui-connect
 
 echo "Completed"
 
