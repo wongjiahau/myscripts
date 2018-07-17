@@ -13,5 +13,8 @@ map-esc-to-caps.sh
 echo Activating WiFi
 wifi
 
+echo Activate SSH
+ssh-add
+
 echo "Completed"
 
