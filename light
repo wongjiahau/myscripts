@@ -1,1 +1,8 @@
 #!/bin/bash
+
+if [[ $# -ne 1 ]]; then
+    echo "Must provided one lightness argument, example 100"
+    exit 1
+fi
+
+echo $1 | sudo tee /sys/class/backlight/intel_backlight/brightness
