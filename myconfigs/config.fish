@@ -9,7 +9,7 @@ set -gx PATH ~/myscripts $HOME/bin /usr/local/bin $HOME/.nvm/versions/node/v6.11
 
 # Set Android path
 set -gx ANDROID_HOME $HOME/Android/Sdk
-set -gx PATH $ANDROID_HOME/tools $ANDROID_HOME/tools/bin $ANDROID_HOME/platform-tools
+set -gx PATH $ANDROID_HOME/tools $ANDROID_HOME/tools/bin $ANDROID_HOME/platform-tools $PATH
 
 fish_vi_key_bindings
 
