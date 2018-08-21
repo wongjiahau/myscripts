@@ -4,3 +4,6 @@ service apache2 stop
 
 echo Stopping Mysql daemon
 service mysql stop
+
+echo Stopping Docker daemon
+service docker stop
