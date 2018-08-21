@@ -13,12 +13,6 @@ map-esc-to-caps.sh
 echo Activate SSH
 ssh-add
 
-echo Stopping Apache server
-service apache2 stop
-
-echo Stopping Mysql daemon
-service mysql stop
-
 echo Activating WiFi
 wifi
 

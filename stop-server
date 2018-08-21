@@ -1,0 +1,6 @@
+#!/bin/bash
+echo Stopping Apache server
+service apache2 stop
+
+echo Stopping Mysql daemon
+service mysql stop
