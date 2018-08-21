@@ -10,11 +10,17 @@ fi
 echo mapping ESC to Caplocks
 map-esc-to-caps.sh
 
-echo Activating WiFi
-wifi
-
 echo Activate SSH
 ssh-add
+
+echo Stopping Apache server
+service apache2 stop
+
+echo Stopping Mysql daemon
+service mysql stop
+
+echo Activating WiFi
+wifi
 
 echo "Completed"
 
