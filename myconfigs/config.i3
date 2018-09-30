@@ -118,7 +118,7 @@ bindsym $mod+Shift+9 move container to workspace 9
 bindsym $mod+Shift+0 move container to workspace 10
 
 # Open Thunar in Desktop folder
-bindsym $mod+d thunar ~/Desktop
+bindsym $mod+d exec "thunar ~/Desktop"
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
