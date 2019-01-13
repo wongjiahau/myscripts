@@ -189,7 +189,7 @@ bindsym $mod+End exec sudo pm-suspend
 # Refer https://askubuntu.com/questions/1792/how-can-i-suspend-hibernate-from-command-line
 
 # Screen setup
-exec --no-startup-id xrandr --output HDMI-1 --auto --right eDP-1
+exec --no-startup-id xrandr --output HDMI-1 --auto --left eDP-1
 
 # Init everything else (its a custom script called init)
 exec --no-startup-id init
